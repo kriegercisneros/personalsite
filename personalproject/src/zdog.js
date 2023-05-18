@@ -1,7 +1,7 @@
     export function createZdogIllustration(id){
         
             var illoElem = document.querySelector('.illo');
-            var illoSize = 200;
+            var illoSize = 150;
             var minWindowSize = Math.min( window.innerWidth - 20, (window.innerHeight - 60) );
             var zoom = Math.floor( minWindowSize / illoSize );
             illoElem.setAttribute( 'width', illoSize * zoom );

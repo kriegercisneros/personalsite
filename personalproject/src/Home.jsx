@@ -222,27 +222,33 @@ export default function Home(){
                             className="column justify-content-center">
                     <div id='contact' className="container" style={{display:'flex', justifyContent:'space-between'}}>
                         <div>
-                        <OverlayTrigger trigger="click" placement="right" overlay={popover_two}>
-                            <h1 style={{paddingTop:'10px', width:'100%'}}>connect</h1>
+                        <OverlayTrigger trigger="click" placement="bottom" overlay={popover_two}>
+                        <h1 style={{paddingTop:'10px', paddingBottom:'10px', width:'50vw', backgroundColor:'rgba(400, 128, 128, 0.3)', boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.25)", color:'white', borderRadius:'10px'}}>connect</h1>
+
                         </OverlayTrigger>
 
                             <canvas className="illo"></canvas>
                         </div>
                         <div style={{display:'flex', justifyContent:'end'}}>
-                            <ul className="nav justify-content-between" style={{flexDirection:'column', alignItems:'flex-end'}}>
+                            <ul className="nav justify-content-center" style={{flexDirection:'column', alignItems:'flex-end'}}>
                                 <li style={{paddingTop:'10px'}} className="nav-item">
                                     <a className="nav-link active"  href="https://www.linkedin.com/in/jacqueline-krieger-cisneros/" style={{color:'gray'}}>
-                                        <img style={{height:'15vh'}} src="https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/linkedin_logo_2.png" alt="LinkedIn Logo" />
+                                        <img style={{height:'15vh', boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.25)"}} src="https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/linkedin_logo_2.png" alt="LinkedIn Logo" />
                                     </a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link active" href="https://dev.to/kriegercisneros" style={{color:'gray'}}>
-                                        <img style={{height:'15vh'}} src="https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/dev_logo.png" alt="LinkedIn Logo" />
+                                        <img style={{height:'15vh', boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.25)"}} src="https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/dev_logo.png" alt="Dev Logo" />
                                     </a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link active" href="mailto:krieger.jacqueline@gmail.com" style={{color:'gray'}}>
-                                        <img style={{width:'15vh'}} src="https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/gmail_logo.png" alt="Email Logo" />
+                                        <img style={{width:'15vh', boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.25)"}} src="https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/gmail_logo.png" alt="Email Logo" />
+                                    </a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link active" href="https://github.com/kriegercisneros" style={{color:'gray'}}>
+                                        <img style={{width:'15vh', boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.25)"}} src="https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/github_logo_black.png" alt="Github Logo" />
                                     </a>
                                 </li>
                             </ul>
