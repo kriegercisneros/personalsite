@@ -1,2 +1,53 @@
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/bootstrap";
+
+.my-link {
+    color: gray !important;
+
+    &:hover {
+        color: black !important;
+        font-size: 3.1vh !important;
+    }
+}
+
+.link{
+    color: white !important;
+
+    &:hover {
+        color: black !important;
+        font-size: 1.8vh !important;
+    }
+}
+
+.connect {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: rgba(400, 128, 128, 0.3);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+    color: white;
+    border-radius: 10px;
+    transition: box-shadow 0.3s, transform 0.3s;
+  }
+  
+  .connect:hover {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+    transform: scale(0.95);
+  }
+
+
+  .nav-link img {
+    height: 8vh;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s;
+  }
+  
+  .nav-link:hover img {
+    transform: scale(0.90);
+  }
+  
+  .opaque-image {
+    opacity: 0.7; /* Adjust the opacity value as desired (between 0 and 1) */
+  }
+  
+  
