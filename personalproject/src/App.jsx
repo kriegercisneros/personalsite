@@ -1,5 +1,5 @@
 // import { useState } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Home';
 
 
@@ -8,11 +8,12 @@ function App() {
 
 
     <div className='App'>
-      <Router>
+      <Home />
+      {/* <Router>
         <Routes>
           <Route path='/home' element={<Home />}/>
         </Routes>
-      </Router>
+      </Router> */}
     </div>
   );
 }
