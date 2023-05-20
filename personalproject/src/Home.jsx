@@ -148,7 +148,7 @@ export default function Home(){
                                 <img 
                                     src="https://phase-5-images.s3.us-west-2.amazonaws.com/5780dc1e5bb34a28b89ac7f016f6abdf.png"
                                     className="overlap-image1 rounded-circle"
-                                    style={{zIndex: 2, width:'16vw', height:'72%',position:'absolute', left:'66%', top:'9%'}}
+                                    style={{zIndex: 2, width:'16vw', height:'79%',position:'absolute', left:'66%', top:'9%'}}
                                 ></img>
                                 <img 
                                     src="https://phase-5-images.s3.us-west-2.amazonaws.com/IMG_1538.jpg"
