@@ -142,7 +142,8 @@ export default function Home(){
 
 
                         <div>
-                            <img style={{width:'60vh', borderRadius:'50%', position:'absolute', right:'50%'}} src="https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/%E2%80%94Pngtree%E2%80%94abstract+boheiman+eye+mystic+logo_7595916.png"></img>
+                        
+                            <img style={{width:'60vh', borderRadius:'50%', position:'absolute', right:'55%', bottom:'-22%'}} src="https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/%E2%80%94Pngtree%E2%80%94abstract+boheiman+eye+mystic+logo_7595916.png"></img>
                             <div style={{display:"flex", justifyContent: 'flex-end', paddingTop:'50px', position: 'relative'}}>
                                 <img 
                                     src="https://phase-5-images.s3.us-west-2.amazonaws.com/5780dc1e5bb34a28b89ac7f016f6abdf.png"
@@ -181,10 +182,10 @@ export default function Home(){
 
                     <div style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
                         
-                    <div style={{display:'flex', flexDirection:'column', justifyContent:'center', marginLeft: '-15vw', paddingLeft:'5vw'}}>
-                        <img src="https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/moonphasecolorratio3-4.jpg" style={{width:'20vw', height:'55vh', borderRadius:'', paddingRight:'20px'}}></img>
-                        <img src="https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/moonphasecolorratio3-4.jpg" style={{width:'20vw', height:'55vh', borderRadius:'', paddingRight:'20px'}}></img>
-                        <img src="https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/moonphasecolorratio3-4.jpg" style={{width:'20vw', height:'55vh', borderRadius:'', paddingRight:'20px'}}></img>
+                    <div style={{display:'flex', flexDirection:'column', justifyContent:'center', marginLeft: '-15vw',backgroundColor: '#e4c3b1'}}>
+                        <img src="https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/moonphasecolorratio3-4.jpg" style={{width:'20vw', height:'55vh', objectFit:'contain'}}></img>
+                        <img src="https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/moonphasecolorratio3-4.jpg" style={{width:'20vw', height:'55vh', objectFit:'contain'}}></img>
+                        <img src="https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/moonphasecolorratio3-4.jpg" style={{width:'20vw', height:'55vh', objectFit:'contain'}}></img>
                         
                         <br></br>
                      
@@ -195,20 +196,20 @@ export default function Home(){
                         <br></br>
                         <h1 style={{textAlign: 'right', fontSize:'4.5vh', position:'relative', left:'-2vh'}}>Welcome</h1>
                         <br></br>
-                        <p style={{textAlign: 'left', fontSize:'2vh'}}>Thank you for choosing to be here! Although I enjoy spending my time in Python, I have built this site using React.js to help you better understand who I am and how I can contribute to your software needs. Whether you are looking to collaborate on a project, need a developer for a specific task, or are seeking a valuable addition to your team, feel free to reach out! We may be a great professional fit.</p>
+                        <p style={{textAlign: 'left', fontSize:'2vh', paddingLeft:'1vw'}}>Thank you for choosing to be here! Although I enjoy spending my time in Python, I have built this site using React.js to help you better understand who I am and how I can contribute to your software needs. Whether you are looking to collaborate on a project, need a developer for a specific task, or are seeking a valuable addition to your team, feel free to reach out! We may be a great professional fit.</p>
                             <br></br>
                         <h3 style={{textAlign: 'right',fontSize:'3.7vh', position:'relative', left:'-2vh'}}>About Me</h3>
-                            <p style={{textAlign: 'left', fontSize:'2vh'}}>
+                            <p style={{textAlign: 'left', fontSize:'2vh', paddingLeft:'1vw'}}>
                             In August of 2022, I happily stumbled across FreeCodeCamp and began working through their program. I was amazed by the remarkable results that could be achieved with a simple amount of code. This sparked my passion for programming, leading me to study JavaScript and eventually enroll in a SE bootcamp where I spent an intense 15 weeks learning full-stack development. I absolutely love what I do and am excited to bring my diverse background and experiences to the table. Previously, I studied Anthropology and Dance during my college years. I then moved to Hawaii and became a Dive Master, gaining valuable experience while working in high-end resorts. Later, the most fortunate event in my life occurred when I started a family. All of these experiences have shaped me, fostering curiosity, playfulness, attentive focus, and creative problem-solving skills that greatly benefit my profession as a developer.   
                         </p>
                         <h3 style={{textAlign: 'right', fontSize:'3.7vh', position:'relative', left:'-2vh'}}>Currently Working On</h3>
-                            <p style={{textAlign: 'left', fontSize:'2vh'}}>
+                            <p style={{textAlign: 'left', fontSize:'2vh', paddingLeft:'1vw'}}>
                             I am currently focusing on mastering algorithms. My goal is to enhance my code's efficiency, speed, and cost-effectiveness to bring maximum benefits to your projects. Additionally, I have a keen interest in Artificial Intelligence (AI) and how I can leverage this technology, particularly in model building, within my development profession. We find ourselves in an exciting era where AI has become the tool of the decade, and I am eager to contribute to its advancements.
                         </p>
                         <h3 style={{textAlign: 'right', fontSize:'3.7vh', position:'relative', left:'-2vh'}}>Skills</h3>
-                            <p style={{textAlign: 'left', fontSize:'2vh'}}>
+                            <p style={{textAlign: 'left', fontSize:'2vh', paddingLeft:'1vw'}}>
                             With a proven track record of quickly grasping new concepts and implementing research findings effectively, I thrive in fast-paced environments where I can adapt and apply new knowledge almost immediately. 
-                            I was honored with the "Makes everything look Easy" Award, recognizing my exceptional ability to simplify complex concepts and make them accessible to others. This skill allows me to communicate effectively and collaborate seamlessly with team members, stakeholders, and clients. Additionally, I have experience working with complex and relevant APIs, such as Google Cloud Translate and Stability AI, skillfully integrating them into applications for seamless data exchange and enhanced functionality. Leveraging my expertise in AWS S3 (Simple Storage Service), I efficiently configure and manage buckets to ensure secure and reliable storage of data and media assets in the cloud. 
+                            I was honored with the "Makes Everything Look Easy" Award at my coding bootcamp, recognizing my exceptional ability to simplify complex concepts and make them accessible to others. This skill allows me to communicate effectively and collaborate seamlessly with team members, stakeholders, and clients. Additionally, I have experience working with complex and relevant APIs, such as Google Cloud Translate and Stability AI, skillfully integrating them into applications for seamless data exchange and enhanced functionality. Leveraging my expertise in AWS S3 (Simple Storage Service), I efficiently configure and manage buckets to ensure secure and reliable storage of data and media assets in the cloud. 
                             </p>
                         <br></br>
                         <h1 style={{textAlign: 'right'}}> . . . </h1>
