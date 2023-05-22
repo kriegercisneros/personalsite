@@ -125,7 +125,7 @@ export default function Home(){
                         paddingRight: "25px", 
                         borderRadius:'10px', 
                     }} className="row">
-                        <div style={{display:'flex', flexDirection:'column', alignItems:'flex-end', position:'relative',left:'-5%', paddingTop:'5vh', paddingRight:'5vw'}}>
+                        <div style={{display:'flex', flexDirection:'column', alignItems:'flex-end', position:'relative',left:'-5%', paddingTop:'5vh', paddingRight:'15vw'}}>
                             <h2 className='' style={{
                                 fontSize:'4vh',
                                 color:'black', 
@@ -143,7 +143,7 @@ export default function Home(){
 
                         <div>
                         
-                            <img style={{width:'60vh', borderRadius:'50%', position:'absolute', right:'55%', bottom:'-22%'}} src="https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/%E2%80%94Pngtree%E2%80%94abstract+boheiman+eye+mystic+logo_7595916.png"></img>
+                            <img style={{width:'30vw', borderRadius:'50%', position:'absolute', right:'55%', bottom:'-22%'}} src="https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/%E2%80%94Pngtree%E2%80%94abstract+boheiman+eye+mystic+logo_7595916.png"></img>
                             <div style={{display:"flex", justifyContent: 'flex-end', paddingTop:'50px', position: 'relative'}}>
                                 <img 
                                     src="https://phase-5-images.s3.us-west-2.amazonaws.com/5780dc1e5bb34a28b89ac7f016f6abdf.png"
@@ -196,18 +196,18 @@ export default function Home(){
                         <br></br>
                         <h1 style={{textAlign: 'right', fontSize:'4.5vh', position:'relative', left:'-2vh'}}>Welcome</h1>
                         <br></br>
-                        <p style={{textAlign: 'left', fontSize:'2vh', paddingLeft:'1vw'}}>Thank you for choosing to be here! Although I enjoy spending my time in Python, I have built this site using React.js to help you better understand who I am and how I can contribute to your software needs. Whether you are looking to collaborate on a project, need a developer for a specific task, or are seeking a valuable addition to your team, feel free to reach out! We may be a great professional fit.</p>
+                        <p style={{textAlign: 'left', fontSize:'3vh', paddingLeft:'1vw'}}>Thank you for choosing to be here! Although I enjoy spending my time in Python, I have built this site using React.js to help you better understand who I am and how I can contribute to your software needs. Whether you are looking to collaborate on a project, need a developer for a specific task, or are seeking a valuable addition to your team, feel free to reach out! We may be a great professional fit.</p>
                             <br></br>
                         <h3 style={{textAlign: 'right',fontSize:'3.7vh', position:'relative', left:'-2vh'}}>About Me</h3>
-                            <p style={{textAlign: 'left', fontSize:'2vh', paddingLeft:'1vw'}}>
+                            <p style={{textAlign: 'left', fontSize:'3vh', paddingLeft:'1vw'}}>
                             In August of 2022, I happily stumbled across FreeCodeCamp and began working through their program. I was amazed by the remarkable results that could be achieved with a simple amount of code. This sparked my passion for programming, leading me to study JavaScript and eventually enroll in a SE bootcamp where I spent an intense 15 weeks learning full-stack development. I absolutely love what I do and am excited to bring my diverse background and experiences to the table. Previously, I studied Anthropology and Dance during my college years. I then moved to Hawaii and became a Dive Master, gaining valuable experience while working in high-end resorts. Later, the most fortunate event in my life occurred when I started a family. All of these experiences have shaped me, fostering curiosity, playfulness, attentive focus, and creative problem-solving skills that greatly benefit my profession as a developer.   
                         </p>
                         <h3 style={{textAlign: 'right', fontSize:'3.7vh', position:'relative', left:'-2vh'}}>Currently Working On</h3>
-                            <p style={{textAlign: 'left', fontSize:'2vh', paddingLeft:'1vw'}}>
+                            <p style={{textAlign: 'left', fontSize:'3vh', paddingLeft:'1vw'}}>
                             I am currently focusing on mastering algorithms. My goal is to enhance my code's efficiency, speed, and cost-effectiveness to bring maximum benefits to your projects. Additionally, I have a keen interest in Artificial Intelligence (AI) and how I can leverage this technology, particularly in model building, within my development profession. We find ourselves in an exciting era where AI has become the tool of the decade, and I am eager to contribute to its advancements.
                         </p>
                         <h3 style={{textAlign: 'right', fontSize:'3.7vh', position:'relative', left:'-2vh'}}>Skills</h3>
-                            <p style={{textAlign: 'left', fontSize:'2vh', paddingLeft:'1vw'}}>
+                            <p style={{textAlign: 'left', fontSize:'3vh', paddingLeft:'1vw'}}>
                             With a proven track record of quickly grasping new concepts and implementing research findings effectively, I thrive in fast-paced environments where I can adapt and apply new knowledge almost immediately. 
                             I was honored with the "Makes Everything Look Easy" Award at my coding bootcamp, recognizing my exceptional ability to simplify complex concepts and make them accessible to others. This skill allows me to communicate effectively and collaborate seamlessly with team members, stakeholders, and clients. Additionally, I have experience working with complex and relevant APIs, such as Google Cloud Translate and Stability AI, skillfully integrating them into applications for seamless data exchange and enhanced functionality. Leveraging my expertise in AWS S3 (Simple Storage Service), I efficiently configure and manage buckets to ensure secure and reliable storage of data and media assets in the cloud. 
                             </p>
@@ -301,76 +301,88 @@ export default function Home(){
 
                 <div style={{padding:'20vh'}}></div>
                 
-
-                <div style={{
-                    backgroundColor: "#FFF7F2",
-                    boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.25)", 
-                    borderRadius:'10px', 
-                    display:'flex'
-                    }}
-                    className="column justify-content-center">
-                    <div 
-                        id='contact' 
-                        className="container opaque-image"
-                        style={{
-                            display:'flex', 
-                            justifyContent:'space-around', 
-                            backgroundImage: `url("https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/%E2%80%94Pngtree%E2%80%94abstract+boheiman+eye+mystic+logo_7595916.png")`,
-                            backgroundSize: 'cover', 
-                            backgroundPosition: 'center',
-                            height: '100%', 
-                            objectFit: 'cover', 
-                            borderRadius: '10px', 
-                            paddingBottom:'1vh' 
-                          }}
-                            >
-                        <div style={{ position:'relative', display: 'flex', flexDirection: 'row', alignItems: 'flex-end', height: '100%'}}>
-                            <div style={{}}>
-                                <OverlayTrigger trigger="click" placement="top" overlay={popover_two}>
-                                    <button 
-                                    className="connect" style={{
-                                        width: '4vw',
-                                        height: '8vh',
-                                        backgroundColor: '#F6E6D8',
-                                        boxShadow: '0px 10px 20px rgba(0, 0, 0, 0.25)',
-                                        color: 'white',
-                                        borderRadius: '50%',
-                                        display: 'flex',
-                                        justifyContent: 'center',
-                                        alignItems: 'center',
-                                        border: 'none',
-                                    }}>ℹ️</button>
-                                </OverlayTrigger>
+                <div style={{display:'flex',flexDirection:'row', justifyContent:'space-between'}}>
+                
+                    <div style={{
+                        backgroundColor: "#FFF7F2",
+                        boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.25)", 
+                        borderRadius:'10px', 
+                        display:'flex',
+                        marginLeft:'-8vw', 
+                        width:'50vw'
+                        }}
+                        className="column justify-content-center">
+                        <div 
+                            id='contact' 
+                            className="container opaque-image"
+                            style={{
+                                display:'flex', 
+                                justifyContent:'space-around', 
+                                backgroundImage: `url("https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/%E2%80%94Pngtree%E2%80%94abstract+boheiman+eye+mystic+logo_7595916.png")`,
+                                backgroundSize: 'cover', 
+                                backgroundPosition: 'center',
+                                height: '100%', 
+                                objectFit: 'cover', 
+                                borderRadius: '10px', 
+                                paddingBottom:'1vh' 
+                            }}
+                                >
+                            <div style={{ position:'relative', display: 'flex', flexDirection: 'row', alignItems: 'flex-end', height: '100%'}}>
+                                <div style={{}}>
+                                    <OverlayTrigger trigger="click" placement="top" overlay={popover_two}>
+                                        <button 
+                                        className="connect" style={{
+                                            width: '4vw',
+                                            height: '8vh',
+                                            backgroundColor: '#F6E6D8',
+                                            boxShadow: '0px 10px 20px rgba(0, 0, 0, 0.25)',
+                                            color: 'white',
+                                            borderRadius: '50%',
+                                            display: 'flex',
+                                            justifyContent: 'center',
+                                            alignItems: 'center',
+                                            border: 'none',
+                                        }}>ℹ️</button>
+                                    </OverlayTrigger>
+                                </div>
+                                <div style={{display:'flex'}}>
+                                    <canvas style={{ maxWidth: '38vw', maxHeight: '60vh' }} className="illo" ></canvas>
+                                </div>
                             </div>
-                            <div style={{display:'flex'}}>
-                                <canvas style={{ maxWidth: '38vw', maxHeight: '60vh' }} className="illo" ></canvas>
+
+                            <div style={{display:'flex', justifyContent:'end'}}>
+                                <ul className="nav justify-content-center" style={{flexDirection:'column', alignItems:'flex-end'}}>
+                                    <li style={{paddingTop:'10px'}} className="nav-item">
+                                        <a className="nav-link active"  href="https://www.linkedin.com/in/jacqueline-krieger-cisneros/" style={{color:'gray'}}>
+                                            <img style={{height:'8vh', boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.25)"}} src="https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/linkedin_logo_2.png" alt="LinkedIn Logo" />
+                                        </a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a className="nav-link active" href="https://dev.to/kriegercisneros" style={{color:'gray'}}>
+                                            <img style={{height:'8vh', boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.25)"}} src="https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/dev_logo.png" alt="Dev Logo" />
+                                        </a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a className="nav-link active" href="mailto:krieger.jacqueline@gmail.com" style={{color:'gray'}}>
+                                            <img style={{width:'8vh', boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.25)"}} src="https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/gmail_logo.png" alt="Email Logo" />
+                                        </a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a className="nav-link active" href="https://github.com/kriegercisneros" style={{color:'gray'}}>
+                                            <img style={{width:'8vh', boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.25)"}} src="https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/github_logo_black.png" alt="Github Logo" />
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
-
-                        <div style={{display:'flex', justifyContent:'end'}}>
-                            <ul className="nav justify-content-center" style={{flexDirection:'column', alignItems:'flex-end'}}>
-                                <li style={{paddingTop:'10px'}} className="nav-item">
-                                    <a className="nav-link active"  href="https://www.linkedin.com/in/jacqueline-krieger-cisneros/" style={{color:'gray'}}>
-                                        <img style={{height:'8vh', boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.25)"}} src="https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/linkedin_logo_2.png" alt="LinkedIn Logo" />
-                                    </a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link active" href="https://dev.to/kriegercisneros" style={{color:'gray'}}>
-                                        <img style={{height:'8vh', boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.25)"}} src="https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/dev_logo.png" alt="Dev Logo" />
-                                    </a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link active" href="mailto:krieger.jacqueline@gmail.com" style={{color:'gray'}}>
-                                        <img style={{width:'8vh', boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.25)"}} src="https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/gmail_logo.png" alt="Email Logo" />
-                                    </a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link active" href="https://github.com/kriegercisneros" style={{color:'gray'}}>
-                                        <img style={{width:'8vh', boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.25)"}} src="https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/github_logo_black.png" alt="Github Logo" />
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+                    </div>
+                    <div style={{paddingLeft:'4vw', paddingRight:'2vw', backgroundColor:'rgba(255,255,255,.4)', marginLeft:'-2vw'}}>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <h1 style={{textAlign: 'right', fontSize:'4.7vh' }}>Connect</h1>
+                        <br></br>
+                        <p style={{textAlign: 'right', fontSize:'3vh' }}> Thank you for reaching out!  Have a question?  Want to collaborate on a project?  Need a new team member?  Currently I am open to employment, and I am always happy to connect!</p>
                     </div>
                 </div>
 
