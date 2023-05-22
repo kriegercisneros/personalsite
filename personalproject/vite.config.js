@@ -9,7 +9,9 @@ export default defineConfig({
   plugins: [react()],
   root: resolve(__dirname, 'src'),
   resolve: {
-    
+    alias: {
+      '~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap'),
+    }
   }
 })
 

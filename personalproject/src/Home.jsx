@@ -107,7 +107,7 @@ export default function Home(){
                     paddingBottom:'300px',
                     paddingLeft: "25px",
                     paddingRight: "25px",
-                    boxShadow: '0px 4px 8px 0px rgba(0, 0, 0, 0.2)', 
+                    boxShadow: '0px 4px 8px 0px rgba(0, 0, 0, 0.3)', 
                     borderRadius: '10px'
                     }}>
                     <div className="column" style={{paddingTop:'8vh', display:'flex', flexDirection:'column', alignItems:'flex-start'}}>
@@ -148,7 +148,7 @@ export default function Home(){
                                 <img 
                                     src="https://phase-5-images.s3.us-west-2.amazonaws.com/5780dc1e5bb34a28b89ac7f016f6abdf.png"
                                     className="overlap-image1 rounded-circle"
-                                    style={{zIndex: 2, width:'16vw', height:'79%',position:'absolute', left:'66%', top:'9%'}}
+                                    style={{zIndex: 2, width:'16vw', height:'85%',position:'absolute', left:'66%', top:'9%'}}
                                 ></img>
                                 <img 
                                     src="https://phase-5-images.s3.us-west-2.amazonaws.com/IMG_1538.jpg"
@@ -182,7 +182,7 @@ export default function Home(){
 
                     <div style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
                         
-                    <div style={{display:'flex', flexDirection:'column', justifyContent:'center', marginLeft: '-15vw',backgroundColor: '#e4c3b1'}}>
+                    <div style={{display:'flex', flexDirection:'column', justifyContent:'center', marginLeft: '-7vw',backgroundColor: '#e4c3b1'}}>
                         <img src="https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/moonphasecolorratio3-4.jpg" style={{width:'20vw', height:'55vh', objectFit:'contain'}}></img>
                         <img src="https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/moonphasecolorratio3-4.jpg" style={{width:'20vw', height:'55vh', objectFit:'contain'}}></img>
                         <img src="https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/moonphasecolorratio3-4.jpg" style={{width:'20vw', height:'55vh', objectFit:'contain'}}></img>
