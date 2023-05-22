@@ -376,7 +376,7 @@ export default function Home(){
                             </div>
                         </div>
                     </div>
-                    <div style={{paddingLeft:'4vw', paddingRight:'2vw', backgroundColor:'rgba(255,255,255,.4)', marginLeft:'-2vw'}}>
+                    <div style={{paddingLeft:'4vw', paddingRight:'10vw', backgroundColor:'rgba(255,255,255,.4)', marginRight:'-10vw', boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.25)", borderRadius:'10px'}}>
                         <br></br>
                         <br></br>
                         <br></br>
