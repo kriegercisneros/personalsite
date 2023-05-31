@@ -85,7 +85,7 @@ export default function Home(){
                     <a className="nav-link active my-link" aria-current="page" href="#about" style={{fontSize:'3vh'}}>About</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link my-link" href="https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/Technical+Resume+(3).pdf" target="_blank" rel="noopener noreferrer" style={{color:'gray', fontSize:'3vh'}}>Resume</a>
+                    <a className="nav-link my-link" href="https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/Technical+Resume+(4).pdf" target="_blank" rel="noopener noreferrer" style={{color:'gray', fontSize:'3vh'}}>Resume</a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link my-link" href="#projects" style={{color:'gray', fontSize:'3vh'}}> Development Projects</a>
