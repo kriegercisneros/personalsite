@@ -112,7 +112,7 @@ export default function Home(){
                     }}>
                     <div className="column" style={{paddingTop:'8vh', display:'flex', flexDirection:'column', alignItems:'flex-start'}}>
                         <h1 style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)', fontSize:'5vh'}}>Jacqueline Krieger-Cisneros</h1>
-                        <h4 style={{fontSize:'3.2vh'}}>Full-Stack Developer</h4>
+                        <h4 style={{fontSize:'3.2vh'}}>Full-Stack Software Engineer</h4>
                         <h5 style={{fontSize:'2.5vh', color:'gray'}}>Anthropologist | Environmental Advocate </h5>
                     </div>
 
@@ -200,11 +200,11 @@ export default function Home(){
                         <br></br>
                         <h1 style={{textAlign: 'right', fontSize:'3.5vh', position:'relative', left:'-2vh'}}>Welcome</h1>
                         <br></br>
-                        <p style={{textAlign: 'right', fontSize:'2.5vh', paddingLeft:'1vw'}}>Thank you for choosing to be here! Python is my language of choice, and I have built this site using React.js to help you better understand who I am and how I can contribute to your software needs. Whether you are looking to collaborate on a project, need a developer for a specific task, or are seeking a valuable addition to your team, feel free to reach out! We may be a great professional fit.</p>
+                        <p style={{textAlign: 'right', fontSize:'2.5vh', paddingLeft:'1vw'}}>Entry level Full-Stack Software Engineer with a strong interest in Machine Learning and the ability to learn very quickly. I am at my best when tasked with a lofty goal with no clear direction forward – I have a pioneer mentality. I take calculated risks and manage my time expertly when charging forward with a project, and I am so pumped to steer my career into the vast and wonderful world of AI.</p>
                             <br></br>
                         <h3 style={{textAlign: 'right',fontSize:'3vh', position:'relative', left:'-2vh'}}>About Me</h3>
                             <p style={{textAlign: 'right', fontSize:'2.5vh', paddingLeft:'1vw'}}>
-                            In August of 2022, I happily stumbled across FreeCodeCamp and began working through their program. I was amazed by the remarkable results that could be achieved with a simple amount of code. This sparked my passion for programming, leading me to study JavaScript and eventually enroll in a SE bootcamp where I spent an intense 15 weeks learning full-stack development. I absolutely love what I do and am excited to bring my diverse background and experiences to the table. Previously, I studied Anthropology and Dance during my college years. I then moved to Hawaii and became a Dive Master, gaining valuable experience while working in high-end resorts. Later, the most fortunate event in my life occurred when I started a family. All of these experiences have shaped me, fostering curiosity, playfulness, attentive focus, and creative problem-solving skills that greatly benefit my profession as a developer.   
+                            In August of 2022, I happily stumbled across FreeCodeCamp and began working through their program. I was amazed by the remarkable results that could be achieved with a simple amount of code. This sparked my passion for programming, leading me to study JavaScript and eventually enroll in a Software Engineering bootcamp where I spent an intense 15 weeks learning full-stack development. I absolutely love what I do and am excited to bring my diverse background and experiences to the industry. Previously, I studied Anthropology and Dance during my college years. I then moved to Hawaii and became a Dive Master, gaining valuable experience while working in high-end resorts. Later, the most fortunate event in my life occurred when I started a family. All of these experiences have shaped me, fostering curiosity, playfulness, attentive focus, and creative problem-solving skills that greatly benefit my profession as a developer.   
                         </p>
                         <br></br>
                         <h3 style={{textAlign: 'right', fontSize:'3vh', position:'relative', left:'-2vh'}}>Currently Working On</h3>
