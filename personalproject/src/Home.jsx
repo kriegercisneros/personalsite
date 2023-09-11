@@ -85,7 +85,7 @@ export default function Home(){
                     <a className="nav-link active my-link" aria-current="page" href="#about" style={{fontSize:'3vh'}}>About</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link my-link" href="https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/Technical+Resume+Summer+2023.pdf" target="_blank" rel="noopener noreferrer" style={{color:'gray', fontSize:'3vh'}}>Resume</a>
+                    <a className="nav-link my-link" href="https://docs.google.com/document/d/1rud-Qlgn2Zk5BiRd5HaX7v9PjMYsSJRm538Y8QE9Dw8/edit?usp=sharing" target="_blank" rel="noopener noreferrer" style={{color:'gray', fontSize:'3vh'}}>Resume</a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link my-link" href="#projects" style={{color:'gray', fontSize:'3vh'}}> Development Projects</a>
