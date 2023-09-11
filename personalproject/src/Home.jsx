@@ -433,28 +433,8 @@ export default function Home(){
                             <img
                             className="d-block w-100"
                             style={{height: '50vh', objectFit: 'contain'}}
-                            src="https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/plant.jpg"
-                            alt="Fourth slide"
-                            />
-                            <Carousel.Caption>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img
-                            className="d-block w-100"
-                            style={{height: '50vh', objectFit: 'contain'}}
-                            src="https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/364DEE72-1D06-43FD-A1D0-6A38061AB42A_1_105_c.jpeg"
-                            alt="Fifth slide"
-                            />
-                            <Carousel.Caption>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img
-                            className="d-block w-100"
-                            style={{height: '50vh', objectFit: 'contain'}}
                             src="https://phase-4-bucket-2.s3.us-west-2.amazonaws.com/619C9C42-D445-41AD-9CA0-B72518E50063_1_105_c.jpeg"
-                            alt="Sixth slide"
+                            alt="fourth slide"
                             />
                             <Carousel.Caption>
                             </Carousel.Caption>
