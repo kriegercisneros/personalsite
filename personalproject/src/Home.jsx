@@ -113,7 +113,7 @@ export default function Home(){
                     <div className="column" style={{paddingTop:'8vh', display:'flex', flexDirection:'column', alignItems:'flex-start'}}>
                         <h1 style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)', fontSize:'5vh'}}>Jacqueline Krieger-Cisneros</h1>
                         <h4 style={{fontSize:'3.2vh'}}>Full-Stack Software Engineer</h4>
-                        <h5 style={{fontSize:'2.5vh', color:'gray'}}>Anthropologist | Environmental Advocate </h5>
+                        <h5 style={{fontSize:'2.5vh', color:'gray'}}>Anthropologist | Environmental Advocate | Artist | Mother</h5>
                     </div>
 
                     <div style={{padding:'5vh'}}></div>
